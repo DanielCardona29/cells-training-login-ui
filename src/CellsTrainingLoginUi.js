@@ -110,7 +110,6 @@ export class CellsTrainingLoginUi extends LitElement {
 
   updated() {
     const button = this.shadowRoot.getElementById('button-login');
-    console.log(this.validPass, this.validUser)
     button.disabled = !(this.validPass && this.validUser)
   }
 
